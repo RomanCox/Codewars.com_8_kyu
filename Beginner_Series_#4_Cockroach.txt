@@ -1,0 +1,4 @@
+function cockroachSpeed(s) {
+  var answer = s * 1000 / 36;
+  return Math.floor(answer);
+}

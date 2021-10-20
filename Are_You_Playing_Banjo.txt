@@ -1,0 +1,10 @@
+function areYouPlayingBanjo(name) {
+  var firstLetter = name[0];
+  if (firstLetter == 'r') {
+    return name + " plays banjo";
+    } else if (firstLetter == 'R') {
+      return name + " plays banjo";
+      } else {
+        return name + " does not play banjo";
+        }
+}
