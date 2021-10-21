@@ -1,0 +1,13 @@
+function divide(weight){
+  if (weight !== 2) {
+    if ((weight % 2) === 0) {
+      if (((weight - 1) % 2) !== 0) {
+          return true;
+          } else {
+              return false;
+            }
+    } else {
+        return false;
+      }
+  } else return false;
+}

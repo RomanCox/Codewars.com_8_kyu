@@ -1,0 +1,8 @@
+function digitize(n) {
+  var str = String(n);
+  var arr = str.split('').reverse();
+  var newArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    newArr.push(Number(arr[i]));
+  } return newArr;
+}
