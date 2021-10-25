@@ -1,0 +1,7 @@
+const reverseSeq = n => {
+  var arr = [];
+  for (var i = 0; i < n; i++) {
+   arr.push(n - i); 
+  }
+  return arr;
+};
