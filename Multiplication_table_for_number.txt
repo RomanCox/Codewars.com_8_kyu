@@ -1,0 +1,7 @@
+function multiTable(number) {
+  var arr = [];
+  for (var i = 1; i < 11; i++) {
+    arr.push(`${i} * ${number} = ${i * number}`);
+    var str = arr.join('\n')
+  } return str;
+}
