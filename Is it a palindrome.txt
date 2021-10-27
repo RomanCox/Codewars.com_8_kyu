@@ -1,0 +1,20 @@
+function isPalindrome(x) {
+  if (x.length <= 1) {
+    return true;
+  } else {
+    var lowCaseStr = x.toLowerCase();
+    var y = 1;
+    var l = lowCaseStr.length
+    for (var i = 0; i < Math.floor(l / 2); i++) {
+      if (lowCaseStr[i] === lowCaseStr[l - (i + 1)]) {
+      y++;
+      } else {
+      y *= 0;
+      }
+      } if (y < Math.floor(l / 2)) {
+      return false;
+      } else {
+      return true;
+	  }
+	}
+}
