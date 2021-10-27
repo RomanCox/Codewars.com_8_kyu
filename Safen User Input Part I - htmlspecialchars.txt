@@ -1,0 +1,14 @@
+function htmlspecialchars(formData) {
+  var arr = formData.split("");
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === "<") {
+      arr.splice(i, 1, "&lt;")
+    } else if (arr[i] === ">") {
+      arr.splice(i, 1, "&gt;")
+    } else if (arr[i] === '\"') {
+      arr.splice(i, 1, "&quot;")
+    } else if (arr[i] === '&') {
+      arr.splice(i, 1, "&amp;")
+    }
+  } return arr.join('');
+}
