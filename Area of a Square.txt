@@ -1,0 +1,5 @@
+function squareArea(A){
+  var r = (2 * A / (Math.PI));
+  var square = r ** 2;
+  return Math.round(square * 100)/100;
+}
