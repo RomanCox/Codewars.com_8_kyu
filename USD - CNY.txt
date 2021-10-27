@@ -1,0 +1,5 @@
+function usdcny(usd) {
+  var cny = parseFloat(6.75 * usd).toFixed(2);
+  var arr = [cny, ' Chinese Yuan'];
+  return arr.join('');
+}
