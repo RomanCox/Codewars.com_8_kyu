@@ -1,7 +1,0 @@
-function repeatStr (n, s) {
-  var arr = [];
-  while (arr.length < n) {
-    arr.push(s);
-  }
-  return arr.join('');
-}
