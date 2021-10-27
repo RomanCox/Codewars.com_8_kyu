@@ -1,8 +1,0 @@
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-  var dif = dadYearsOld - sonYearsOld;
-  if (dadYearsOld / sonYearsOld < 2) {
-    return sonYearsOld - dif;
-  } else if (dadYearsOld / sonYearsOld >= 2) {
-    return dif - sonYearsOld;
-  }
-}
