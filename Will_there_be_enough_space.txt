@@ -1,9 +1,0 @@
-function enough(cap, on, wait) {
-  var freeSeats = cap - on;
-  var placed = wait - freeSeats;
-    if (placed >= 0) {
-      return placed;
-  } else {
-    return 0;
-  }
-}
