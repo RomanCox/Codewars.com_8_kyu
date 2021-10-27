@@ -1,8 +1,0 @@
-function abbrevName(name) {
-  var arr = name.split(' ');
-  var initials = [];
-  initials.push(arr[0][0]);
-  initials.push(arr[1][0]);
-  var newArr = initials.join('.');
-  return newArr.toUpperCase();
-}
