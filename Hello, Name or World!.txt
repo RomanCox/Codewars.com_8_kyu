@@ -1,0 +1,10 @@
+function hello(name = "") {
+  if (name === "") {
+    return 'Hello, World!';
+  } else {
+    var smallName = name.toLowerCase();
+    var correctName = smallName[0].toUpperCase() + smallName.slice(1);
+    var arr = ['Hello, ', correctName, '!'];
+    return arr.join('');
+  }
+}
