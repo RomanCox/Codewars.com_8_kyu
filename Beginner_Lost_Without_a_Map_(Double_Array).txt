@@ -1,6 +1,0 @@
-function maps(x){
-  var doubleArray = [];
-  for (var i = 0; i < x.length; i++) {
-      doubleArray.push(2*x[i]);
-    } return doubleArray;
-}
