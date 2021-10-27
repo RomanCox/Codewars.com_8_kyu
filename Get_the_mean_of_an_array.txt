@@ -1,7 +1,0 @@
-function getAverage(marks){
-  var sumOfMarks = 0;
-  for (var i = 0; i < marks.length; i++) {
-    sumOfMarks += marks[i];
-    var averageOfMarks = Math.floor(sumOfMarks / marks.length);
-  } return averageOfMarks;
-}
