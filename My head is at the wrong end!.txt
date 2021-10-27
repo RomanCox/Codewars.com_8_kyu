@@ -1,0 +1,7 @@
+function fixTheMeerkat(arr) {
+  var newFirst = arr.pop();
+  var newLast = arr.shift();
+  arr.push(newLast);
+  arr.unshift(newFirst);
+  return arr;
+} 
