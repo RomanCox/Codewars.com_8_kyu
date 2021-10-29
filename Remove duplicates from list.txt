@@ -1,0 +1,13 @@
+function distinct(a) {
+    var i = 0,
+    current,
+    length = a.length,
+    unique = [];
+    for (; i < length; i++) {
+      current = a[i];
+      if (!~unique.indexOf(current)) {
+        unique.push(current);
+      }
+    }
+    return unique;
+}
