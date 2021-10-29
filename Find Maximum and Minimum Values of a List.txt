@@ -1,0 +1,15 @@
+var min = function(list){
+    function compareNumbers(a, b) {
+      return a - b;
+    }
+    list.sort(compareNumbers);
+    return list[0];
+}
+
+var max = function(list){
+    function compareNumbers(a, b) {
+      return b - a;
+    }
+    list.sort(compareNumbers);
+    return list[0];
+}
